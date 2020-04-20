@@ -71,8 +71,8 @@ int main(int argc, char **argv)
 
 				}
 			} else{
-				dx = fabs(marker.pose.position.x - odom_x);
-				dy = fabs(marker.pose.position.y - odom_y);
+				dx = fabs(dropoff[0] - odom_x);
+				dy = fabs(dropoff[1] - odom_y);
 				if((dx < eps) && (dy < eps)){
 					marker.action = visualization_msgs::Marker::ADD;
 					marker.pose.position.x = dropoff[0];
