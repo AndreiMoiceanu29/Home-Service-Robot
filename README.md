@@ -6,8 +6,14 @@ The Home Service Robot is the final project of the Udacity Robotics Software Eng
 # Images
 
 ![](demo.gif)
+
+
 The robot navigating to the object.
+
+
 ![](demo2.gif)
+
+
 The robot navigating to the destination
 
 ## Packages used in the project
