@@ -28,8 +28,8 @@ The robot navigating to the destination
 
 ## Packages created by me
 
- - pick_objects: This package send a navigation goal to our robot so it can pick, carry and place objects around the room.
- - add_markers: This package publishes markers that are displayed in Rviz, for evaluating proposes.
+ - pick_objects: This package sends a navigation goal to our robot so it can pick, carry and place objects around the room.
+ - add_markers: This package publishes markers that are displayed in Rviz, for evaluation pruposes.
 
 ## System Requirements and Installation 
 
