@@ -422,6 +422,12 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Value Computed by CMake
+inspect_house_BINARY_DIR:STATIC=/home/student/roboticsND/final-project/build/inspect_house
+
+//Value Computed by CMake
+inspect_house_SOURCE_DIR:STATIC=/home/student/roboticsND/final-project/src/inspect_house
+
 //The directory containing a CMake configuration file for interactive_markers.
 interactive_markers_DIR:PATH=/opt/ros/kinetic/share/interactive_markers/cmake
 
@@ -430,6 +436,12 @@ joy_DIR:PATH=/opt/ros/kinetic/share/joy/cmake
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
+
+//Value Computed by CMake
+mapper_BINARY_DIR:STATIC=/home/student/roboticsND/final-project/build/mapper
+
+//Value Computed by CMake
+mapper_SOURCE_DIR:STATIC=/home/student/roboticsND/final-project/src/mapper
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
@@ -750,7 +762,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=22
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=24
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,0 +1,8 @@
+prefix=/home/student/roboticsND/final-project/devel
+
+Name: inspect_house
+Description: Description of inspect_house
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
