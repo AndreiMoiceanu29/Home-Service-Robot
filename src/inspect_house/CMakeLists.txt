@@ -13,6 +13,8 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   tf
+  message_generation
+  ball_chaser
 )
 
 ## System dependencies are found with CMake's conventions
@@ -109,6 +111,8 @@ catkin_package(
 #  LIBRARIES inspect_house
 #  CATKIN_DEPENDS actionlib move_base_msgs roscpp
 #  DEPENDS system_lib
+
+
 )
 
 ###########

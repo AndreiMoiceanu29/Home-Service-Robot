@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/student/roboticsND/final-project/devel/include/ball_chaser/ObjectFound.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /home/student/roboticsND/final-project/src/inspect_house/src/inspect_house.cpp
 ros/ros.h
 -
@@ -14,6 +30,14 @@ move_base_msgs/MoveBaseAction.h
 actionlib/client/simple_action_client.h
 -
 tf/tf.h
+-
+cstdio
+-
+cstdlib
+-
+string.h
+-
+ball_chaser/ObjectFound.h
 -
 
 /opt/ros/kinetic/include/actionlib/action_definition.h

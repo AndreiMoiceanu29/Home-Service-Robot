@@ -99,12 +99,12 @@ inspect_house_EXTERNAL_OBJECTS =
 /home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /opt/ros/kinetic/lib/libxmlrpcpp.so
 /home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /opt/ros/kinetic/lib/libtf2.so
-/home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /opt/ros/kinetic/lib/libroscpp_serialization.so
 /home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /opt/ros/kinetic/lib/librosconsole.so
 /home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
 /home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
 /home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 /home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /opt/ros/kinetic/lib/libroscpp_serialization.so
 /home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /opt/ros/kinetic/lib/librostime.so
 /home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /opt/ros/kinetic/lib/libcpp_common.so
 /home/student/roboticsND/final-project/devel/lib/inspect_house/inspect_house: /usr/lib/x86_64-linux-gnu/libboost_system.so

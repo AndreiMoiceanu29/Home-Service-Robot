@@ -5,7 +5,8 @@ xterm -e "roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/home/robond/rob
 sleep 5
 xterm -e "roslaunch turtlebot_rviz_launchers view_navigation.launch" &
 sleep 5
-xterm -e "rosrun inspect_house inspect_house" 
-#sleep 3
+xterm -e "rosrun inspect_house inspect_house" & 
+sleep 3
+xterm -e "rosrun ball_chaser process_image"
 #xterm -e "rosrun add_markers add_markers "
 
